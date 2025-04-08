@@ -1,6 +1,7 @@
 name: Automated API tests using Postman CLI
 
-on: schedule:
+on: 
+    schedule:
     - cron: '*/10 * * * *'
 
 jobs:
